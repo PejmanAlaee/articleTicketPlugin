@@ -1,0 +1,195 @@
+
+
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.titleText {
+    font-size: 20px;
+    margin: 40px 0;
+    text-align: center;
+
+
+}
+
+.liStyle {
+    border-radius: 3px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+
+.table-header {
+
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+}
+
+.table-row {
+    background-color: EEEEEE;
+    margin-top: 5px !important;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+ 
+}
+.responsive-table{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.col-1 {
+    flex-basis: 30%;
+    text-align: center;
+}
+
+.col-2 {
+    flex-basis: 30%;
+    text-align: center;
+}
+
+.col-2 span {
+    color: red;
+
+}
+
+.col-1 span {
+    color: red;
+
+}
+.col-1 label{
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.col-2 label{
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+  .button :hover{
+
+    background-color: #42A5F5 !important;
+  }
+
+  .view{
+    display: none !important;
+  }
+  #buttonResult :hover{
+    background-color: #E0F7FA !important;
+
+  }
+  .title{
+    width: 400px;
+  }
+
+  .Nform{
+    background-color: #42A5F5;
+  }
+  
+  .formLabel{
+    text-align: right;
+  }
+  .form-group{
+    margin-top: 20px;
+  }
+  #name{
+    border-color: #E0E0E0;
+  }
+  #email{
+    border-color: #E0E0E0;
+  }
+
+  #inputAddress{
+    border-color: #E0E0E0;
+  }
+  #SupportCenter{
+    border-color: #E0E0E0;
+  }
+  #Priority{
+    border-color: #E0E0E0;
+  }
+  #service{
+    border-color: #E0E0E0;
+  }
+  #textAria{
+    border-color: #E0E0E0;
+  }
+  .titleTextDiv{
+    text-align: right;
+  }
+  .boxShow{
+    width: 40px;
+    height: 4px;
+    background-color: #9CCC65;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 6px;
+    color: white;
+    font-size: 12px;
+  }
+  .boxShowUser{
+    width: 40px;
+    height: 4px;
+    background-color:#29B6F6;
+    padding-top: 2px;
+    padding-bottom: 4px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 6px;
+    color: white;
+    font-size: 12px;
+  }
+  
+@media only screen and (min-width: 991px) {
+.ulStyle{
+  margin-left: auto;
+  background-color: red;
+  font-size: 241px;
+  border: 10px solid red;
+}
+#divForm{
+  width: 500px;
+  }
+}
+
+@font-face {
+  font-family: 'bNazanin';
+  font-style: normal;
+  src:url("../../fonts/B\ Nazanin_YasDL.com.ttf");
+
+ }
+ *{
+font-family: 'bNazanin';
+ }
+ #btnSearch{
+  border-color: #CFD8DC;
+  background-color: #FAFAFA;
+  color:gray;
+  transition: 0.5;
+ }
+ #searchFormMain{
+  transition: 0.5s;
+ }
+ #searchFormMain:hover{
+  background-color: #FAFAFA;
+ }
+ #btnSearch:hover{
+  background-color: #ECEFF1;
+
+  color:black;
+ }
+ #divForm{
+ width: 400px;
+
+ }
+
+ #userCountBox{
+  height: 160px;
+ }
